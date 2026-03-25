@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+functions/node_modules/
+
+# Firebase
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Sensitive Keys (CRITICAL)
+*.json
+!package.json
+!firebase.json
+!.firebaserc
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temp/Build
+stitch.zip
+/tmp/
